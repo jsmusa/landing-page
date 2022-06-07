@@ -19,6 +19,17 @@ body {
     padding: 8px;
 }
 
+.button {
+    border-radius: 6px;
+    display: flex;
+    max-width: fit-content;
+    padding: 2px 16px;
+}
+
+.below {
+    border: 2px solid #E5E7EB;
+}
+
 .footer {
     display: flex;
     background-color: #1F2937;
@@ -58,11 +69,18 @@ a {
 
 .intro {
     background-color: #1F2937;
-    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+}
+
+.hero-text {
+    font-size: 48px;
 }
 
 .information {
     display: flex;
+    flex-wrap: wrap;
     flex: auto;
     justify-content: center;
 }
@@ -89,6 +107,7 @@ a {
 
 .quote {
     width: 60%;
+    max-width: 500px;
     font-size: 28px;
     font-style: italic;
     font-weight: lighter;
@@ -98,17 +117,24 @@ a {
 .signature {
     text-align: right;
     width: 60%;
+    max-width: 500px;
 }
 
 .bottom {
     display: flex;
     width: 65%;
+    max-width: 800px;
     border-radius: 6px;
     align-self: center;
     background-color: #3882F6;
     color: #E5E7EB;
     padding: 1em 2em;
     margin: 4em 5em;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    gap: 16px;
+}
+
+.call-action {
+    font-weight: bold;
 }
