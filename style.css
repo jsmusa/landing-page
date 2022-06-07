@@ -61,6 +61,12 @@ a {
     margin: 0;
 }
 
+.information {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+}
+
 .info-header {
     display: flex;
     justify-content: center;
@@ -96,4 +102,13 @@ a {
 
 .bottom {
     display: flex;
+    width: 65%;
+    border-radius: 6px;
+    align-self: center;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 1em 2em;
+    margin: 4em 5em;
+    justify-content: center;
+    align-items: center;
 }
